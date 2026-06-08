@@ -4,7 +4,6 @@
   "description": "Dive trip message generator backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
     "start": "node server.js",
     "test": "node --test"
   },
