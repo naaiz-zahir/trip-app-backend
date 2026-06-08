@@ -107,9 +107,6 @@ app.post('/api/add', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`✅ Trip Message Generator backend running on port ${PORT}`);
-});
 if (require.main === module) {
     app.listen(PORT, () => {
         console.log(`✅ Trip Message Generator backend running on port ${PORT}`);
